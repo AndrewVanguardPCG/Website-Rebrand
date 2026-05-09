@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Vanguard Private Client Group — Connecticut's Commercial Brokerage</title>
+<meta name="description" content="Connecticut's commercial brokerage, investment, construction, and management platform. CoStar Power Broker. New Haven · Hartford · Bridgeport." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;1,400&family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Inter:wght@300;400;500;600&family=DM+Sans:wght@400;500&family=Work+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="aerial-and-extras.css" />
+</head>
+<body>
+<div data-slot="header"></div>
+
+<section class="hero">
+  <div class="hero-media">
+    <!-- DROP-IN: replace .nh-aerial with <video autoplay muted loop playsinline src="newhaven-aerial.mp4"></video> -->
+    <div class="nh-aerial" aria-label="Animated aerial view of downtown New Haven">
+      <div class="nh-city">
+        <svg viewBox="0 0 1600 600" preserveAspectRatio="xMidYEnd slice" aria-hidden="true">
+          <defs>
+            <linearGradient id="hillGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#1a2b40" stop-opacity="0.6"/>
+              <stop offset="100%" stop-color="#0d1b2a" stop-opacity="1"/>
+            </linearGradient>
+          </defs>
+          <!-- East Rock / distant ridges -->
+          <path d="M 0,420 L 120,380 L 240,360 L 360,340 L 460,320 L 540,330 L 620,310 L 720,300 L 820,310 L 920,320 L 1020,300 L 1120,310 L 1220,330 L 1320,340 L 1420,360 L 1520,380 L 1600,400 L 1600,600 L 0,600 Z" fill="url(#hillGrad)" opacity="0.6"/>
+          <g fill="#0d1b2a" opacity="0.92">
+            <rect x="60" y="400" width="40" height="200"/><rect x="110" y="380" width="50" height="220"/>
+            <rect x="170" y="410" width="30" height="190"/><rect x="210" y="370" width="60" height="230"/>
+            <rect x="280" y="395" width="35" height="205"/><rect x="320" y="360" width="55" height="240"/>
+            <rect x="385" y="385" width="45" height="215"/><rect x="440" y="350" width="65" height="250"/>
+            <rect x="515" y="370" width="35" height="230"/><rect x="560" y="340" width="55" height="260"/>
+            <!-- Yale Harkness-style spire -->
+            <rect x="630" y="280" width="40" height="320"/>
+            <polygon points="625,285 650,255 675,285"/>
+            <rect x="638" y="245" width="24" height="14"/>
+            <polygon points="638,250 650,225 662,250"/>
+            <rect x="690" y="360" width="50" height="240"/><rect x="745" y="380" width="30" height="220"/>
+            <!-- Knights of Columbus tower -->
+            <rect x="790" y="200" width="60" height="400"/>
+            <rect x="785" y="195" width="70" height="10"/><rect x="810" y="170" width="20" height="30"/>
+            <!-- City Hall -->
+            <rect x="870" y="320" width="70" height="280"/>
+            <polygon points="865,325 905,290 945,325"/>
+            <rect x="900" y="270" width="10" height="22"/>
+            <rect x="950" y="360" width="40" height="240"/><rect x="1000" y="340" width="55" height="260"/>
+            <rect x="1060" y="370" width="35" height="230"/>
+            <!-- CT Financial Center stepped -->
+            <rect x="1100" y="240" width="80" height="360"/>
+            <rect x="1115" y="220" width="50" height="20"/><rect x="1130" y="195" width="20" height="25"/>
+            <rect x="1190" y="360" width="40" height="240"/><rect x="1235" y="380" width="35" height="220"/>
+            <rect x="1280" y="350" width="55" height="250"/><rect x="1340" y="385" width="40" height="215"/>
+            <rect x="1390" y="370" width="50" height="230"/><rect x="1450" y="395" width="30" height="205"/>
+            <rect x="1490" y="380" width="45" height="220"/><rect x="1545" y="400" width="40" height="200"/>
+          </g>
+          <g stroke="#c9a35d" stroke-width="0.5" opacity="0.18">
+            <line x1="0" y1="560" x2="1600" y2="540"/>
+            <line x1="0" y1="580" x2="1600" y2="565"/>
+            <line x1="200" y1="600" x2="180" y2="500"/>
+            <line x1="500" y1="600" x2="490" y2="510"/>
+            <line x1="800" y1="600" x2="800" y2="500"/>
+            <line x1="1100" y1="600" x2="1110" y2="510"/>
+            <line x1="1400" y1="600" x2="1420" y2="500"/>
+          </g>
+        </svg>
+      </div>
+      <div class="nh-lights" aria-hidden="true">
+        <span class="pt" style="left:42%;top:62%;animation-delay:0s;"></span>
+        <span class="pt" style="left:43%;top:65%;animation-delay:0.6s;"></span>
+        <span class="pt" style="left:48%;top:55%;animation-delay:1.2s;"></span>
+        <span class="pt" style="left:50%;top:48%;animation-delay:0.3s;"></span>
+        <span class="pt" style="left:51%;top:60%;animation-delay:1.8s;"></span>
+        <span class="pt" style="left:53%;top:52%;animation-delay:2.4s;"></span>
+        <span class="pt" style="left:55%;top:65%;animation-delay:0.9s;"></span>
+        <span class="pt" style="left:58%;top:58%;animation-delay:1.5s;"></span>
+        <span class="pt" style="left:62%;top:50%;animation-delay:2.1s;"></span>
+        <span class="pt" style="left:65%;top:62%;animation-delay:0.4s;"></span>
+        <span class="pt" style="left:68%;top:55%;animation-delay:1.6s;"></span>
+        <span class="pt" style="left:70%;top:48%;animation-delay:2.8s;"></span>
+        <span class="pt" style="left:72%;top:60%;animation-delay:0.7s;"></span>
+        <span class="pt" style="left:75%;top:52%;animation-delay:1.3s;"></span>
+        <span class="pt" style="left:78%;top:65%;animation-delay:2.0s;"></span>
+        <span class="pt" style="left:80%;top:58%;animation-delay:0.5s;"></span>
+        <span class="pt" style="left:35%;top:68%;animation-delay:1.1s;"></span>
+        <span class="pt" style="left:30%;top:72%;animation-delay:2.3s;"></span>
+        <span class="pt" style="left:85%;top:65%;animation-delay:0.8s;"></span>
+        <span class="pt" style="left:88%;top:70%;animation-delay:1.7s;"></span>
+      </div>
+      <div class="nh-grid" aria-hidden="true"></div>
+      <div class="nh-vignette" aria-hidden="true"></div>
+      <span class="nh-tag">Aerial · Downtown New Haven, CT</span>
+    </div>
+  </div>
+
+  <div class="hero-inner">
+    <div>
+      <span class="hero-eyebrow">Connecticut · Est. 2020</span>
+      <h1 data-hero-headline>Connecticut's <em>operator-led</em> investment platform.</h1>
+      <p class="hero-sub" data-hero-sub>Vanguard Private Client Group is a vertically integrated investment, brokerage, construction, and management firm based in New Haven — serving owners, investors, and capital partners across the state.</p>
+      <div style="display:flex; gap:16px; flex-wrap:wrap;">
+        <a href="services.html" class="btn btn-light">
+          Explore the platform
+          <svg class="arrow" viewBox="0 0 16 9"><line x1="0" y1="4.5" x2="14" y2="4.5"/><polyline points="10,1 14,4.5 10,8"/></svg>
+        </a>
+        <a href="contact.html" class="btn btn-light" style="background:rgba(245,241,234,0.08);">Speak with the team</a>
+      </div>
+    </div>
+
+    <div class="hero-meta">
+      <div class="hero-meta-row"><span class="hero-meta-label">Units owned & managed</span><span class="hero-meta-value">400<sup>+</sup></span></div>
+      <div class="hero-meta-row"><span class="hero-meta-label">Brokerage volume</span><span class="hero-meta-value">$300M<sup>+</sup></span></div>
+      <div class="hero-meta-row"><span class="hero-meta-label">Recognition</span><span class="hero-meta-value" style="font-size:14px; font-family:var(--font-mono); letter-spacing:0.14em;">COSTAR POWER BROKER</span></div>
+      <div class="hero-meta-row"><span class="hero-meta-label">Markets</span><span class="hero-meta-value" style="font-size:14px; font-family:var(--font-mono); letter-spacing:0.14em;">NEW HAVEN · HARTFORD · BRIDGEPORT</span></div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">SCROLL</div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Multifamily Value-Add</span><span class="marquee-dot"></span>
+    <span>Adaptive Reuse</span><span class="marquee-dot"></span>
+    <span>Commercial Brokerage</span><span class="marquee-dot"></span>
+    <span>Asset Management</span><span class="marquee-dot"></span>
+    <span>Ground-Up Development</span><span class="marquee-dot"></span>
+    <span>CoStar Power Broker</span><span class="marquee-dot"></span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="editorial">
+      <aside class="editorial-aside" data-reveal>
+        <span class="eyebrow">Who we are</span>
+        <h2 style="margin-top:24px;">An operator,<br /><em class="italic">first.</em></h2>
+      </aside>
+      <div data-reveal data-delay="120">
+        <p class="lede" style="margin-bottom:32px;">We don't sit on the sidelines. We own, manage, develop, and broker — which means every deal we touch is underwritten with real-world operating assumptions.</p>
+        <p>Founded in 2020 and headquartered in New Haven, Vanguard Private Client Group is a vertically integrated platform across <em class="italic">private equity, commercial brokerage, construction, and management</em>. Our portfolio includes more than 400 multifamily units that we own and self-manage, and over $300M in brokered transaction volume — earning CoStar Power Broker recognition along the way.</p>
+        <p>What sets us apart is alignment. We invest alongside partners, manage what we own, and structure transactions — including seller financing and phased exits — designed for certainty of close and downside protection.</p>
+        <a class="link-arrow" href="approach.html" style="margin-top:32px;">Read the investment philosophy</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:60px; padding-bottom:60px;">
+  <div class="container">
+    <div class="proof" data-reveal>
+      <div class="proof-item">
+        <span class="proof-num">400<sup>+</sup></span>
+        <span class="proof-label">Units owned & self-managed</span>
+        <span class="proof-desc">Multifamily across stabilized and reposition assets in Connecticut.</span>
+      </div>
+      <div class="proof-item">
+        <span class="proof-num">$300M<sup>+</sup></span>
+        <span class="proof-label">Brokerage volume</span>
+        <span class="proof-desc">Combined transaction volume since the firm's inception in 2020.</span>
+      </div>
+      <div class="proof-item">
+        <span class="proof-num">4</span>
+        <span class="proof-label">Vertically integrated lines</span>
+        <span class="proof-desc">PE, brokerage, construction, and asset management under one roof.</span>
+      </div>
+      <div class="proof-item">
+        <span class="proof-num">3</span>
+        <span class="proof-label">Core CT markets</span>
+        <span class="proof-desc">New Haven, Hartford, and Bridgeport — where we live and work.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div data-reveal>
+        <span class="eyebrow">Platform</span>
+        <h2 style="margin-top:24px;">A single platform.<br /><em class="italic">Four disciplines.</em></h2>
+      </div>
+      <p data-reveal data-delay="100">Most firms broker, or invest, or manage. We do all of it — which compresses execution risk, preserves margin, and keeps decision-making in one place.</p>
+    </div>
+
+    <div class="capabilities" data-reveal>
+      <div class="cap">
+        <span class="cap-num">01 / Private Equity</span>
+        <h3>Multifamily Value-Add</h3>
+        <p>Acquisitions and repositioning of middle-market apartment communities across Connecticut, underwritten with operator-grade assumptions.</p>
+        <a class="cap-link" href="services.html#equity">Investment criteria
+          <svg viewBox="0 0 16 9" width="16"><line x1="0" y1="4.5" x2="14" y2="4.5" stroke="currentColor"/><polyline points="10,1 14,4.5 10,8" fill="none" stroke="currentColor"/></svg>
+        </a>
+      </div>
+      <div class="cap">
+        <span class="cap-num">02 / Brokerage</span>
+        <h3>Commercial Sales & Advisory</h3>
+        <p>CoStar Power Broker–recognized commercial brokerage. Discreet representation for sellers and curated, often off-market opportunities for qualified buyers.</p>
+        <a class="cap-link" href="services.html#brokerage">Brokerage services
+          <svg viewBox="0 0 16 9" width="16"><line x1="0" y1="4.5" x2="14" y2="4.5" stroke="currentColor"/><polyline points="10,1 14,4.5 10,8" fill="none" stroke="currentColor"/></svg>
+        </a>
+      </div>
+      <div class="cap">
+        <span class="cap-num">03 / Construction</span>
+        <h3>Adaptive Reuse & Development</h3>
+        <p>In-house construction across residential, commercial, adaptive reuse, and ground-up development — keeping schedule and budget under direct control.</p>
+        <a class="cap-link" href="services.html#construction">Construction capabilities
+          <svg viewBox="0 0 16 9" width="16"><line x1="0" y1="4.5" x2="14" y2="4.5" stroke="currentColor"/><polyline points="10,1 14,4.5 10,8" fill="none" stroke="currentColor"/></svg>
+        </a>
+      </div>
+      <div class="cap">
+        <span class="cap-num">04 / Management & Advisory</span>
+        <h3>Asset Management & Consulting</h3>
+        <p>Third-party property management plus consulting on ownership, financing, construction, and disposition.</p>
+        <a class="cap-link" href="services.html#management">Management & advisory
+          <svg viewBox="0 0 16 9" width="16"><line x1="0" y1="4.5" x2="14" y2="4.5" stroke="currentColor"/><polyline points="10,1 14,4.5 10,8" fill="none" stroke="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="section-head">
+      <div data-reveal>
+        <span class="eyebrow">Where we operate</span>
+        <h2 style="margin-top:24px;">Connecticut, end<br /><em class="italic">to end.</em></h2>
+      </div>
+      <p data-reveal data-delay="100">Three Connecticut markets where we have local relationships, on-the-ground knowledge, and active management presence.</p>
+    </div>
+
+    <div class="markets">
+      <article class="market" data-reveal>
+        <div class="market-bg" style="background: linear-gradient(180deg, #1e3658 0%, #0d1b2a 80%);"></div>
+        <span class="market-num">01 / Headquarters</span>
+        <h3>New Haven</h3>
+        <p>Home base. Our offices on State Street put us steps from the assets and clients we serve across Greater New Haven.</p>
+        <div class="market-meta"><span>Yale · Harbor · East Rock</span><span>06511</span></div>
+      </article>
+      <article class="market" data-reveal data-delay="80">
+        <div class="market-bg" style="background: linear-gradient(180deg, #2a3850 0%, #0d1b2a 80%);"></div>
+        <span class="market-num">02 / Capital Region</span>
+        <h3>Hartford</h3>
+        <p>Adaptive reuse and middle-market multifamily across Hartford and its surrounding suburbs.</p>
+        <div class="market-meta"><span>Downtown · West End</span><span>06103</span></div>
+      </article>
+      <article class="market" data-reveal data-delay="160">
+        <div class="market-bg" style="background: linear-gradient(180deg, #1a2c44 0%, #0d1b2a 80%);"></div>
+        <span class="market-num">03 / Coastal</span>
+        <h3>Bridgeport</h3>
+        <p>Active across Bridgeport's evolving downtown, waterfront, and adaptive reuse opportunities.</p>
+        <div class="market-meta"><span>Downtown · Black Rock</span><span>06604</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="section-head">
+      <div data-reveal>
+        <span class="eyebrow">Client voices</span>
+        <h2 style="margin-top:24px;">What clients<br /><em class="italic">say.</em></h2>
+      </div>
+      <p data-reveal data-delay="100">Comments from owners, sellers, and capital partners we've worked with across Connecticut.</p>
+    </div>
+
+    <div class="testimonials" data-reveal>
+      <div class="testimonial">
+        <p class="testimonial-quote">They underwrote the deal the way I would have — and then they actually closed on those terms. Rare combination.</p>
+        <div class="testimonial-attr"><strong>Multifamily Seller</strong> · New Haven, CT</div>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial-quote">Vanguard runs the building like they own it. Our reporting is clean and the leasing team is consistently the best in the market.</p>
+        <div class="testimonial-attr"><strong>Capital Partner</strong> · Hartford, CT</div>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial-quote">They saw the adaptive reuse story when nobody else did, structured the financing creatively, and delivered the project on schedule.</p>
+        <div class="testimonial-attr"><strong>Co-Investor</strong> · Bridgeport, CT</div>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial-quote">As a seller, I cared about discretion and certainty of close. Both delivered, and the price reflected the asset, not the friction.</p>
+        <div class="testimonial-attr"><strong>Off-Market Seller</strong> · Greater New Haven</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Press / News Coverage -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="section-head">
+      <div data-reveal>
+        <span class="eyebrow">In the press</span>
+        <h2 style="margin-top:24px;">Featured<br /><em class="italic">coverage.</em></h2>
+      </div>
+      <p data-reveal data-delay="100">Recent coverage from Connecticut's leading business and real estate publications.</p>
+    </div>
+
+    <div class="press-grid" data-reveal>
+      <a href="https://hartfordbusiness.com/article/blighted-property-becomes-mixed-use-complex-in-new-havens-upper-state-street-neighborhood/" target="_blank" rel="noopener noreferrer" class="press-article">
+        <span class="press-pub">Hartford Business Journal</span>
+        <h4 class="press-title">Blighted Property Becomes Mixed-Use Complex in New Haven's Upper State Street Neighborhood</h4>
+        <span class="press-read">Read coverage
+          <svg viewBox="0 0 16 9" width="14"><line x1="0" y1="4.5" x2="13" y2="4.5" stroke="currentColor"/><polyline points="9,1 13,4.5 9,8" fill="none" stroke="currentColor"/></svg>
+        </span>
+      </a>
+      <a href="https://www.newhavenindependent.org/2025/01/02/westville_apartments_sold_for_10_million/" target="_blank" rel="noopener noreferrer" class="press-article">
+        <span class="press-pub">New Haven Independent</span>
+        <h4 class="press-title">Westville Apartments Sold for $10 Million</h4>
+        <span class="press-read">Read coverage
+          <svg viewBox="0 0 16 9" width="14"><line x1="0" y1="4.5" x2="13" y2="4.5" stroke="currentColor"/><polyline points="9,1 13,4.5 9,8" fill="none" stroke="currentColor"/></svg>
+        </span>
+      </a>
+      <a href="https://hartfordbusiness.com/article/downtown-new-britain-office-building-sells-for-1-64-million-to-28-year-old-developer-who-plans-to-complete-a-stalled-apartment-conversion/" target="_blank" rel="noopener noreferrer" class="press-article">
+        <span class="press-pub">Hartford Business Journal</span>
+        <h4 class="press-title">Downtown New Britain Office Building Sells for $1.64M to 28-Year-Old Developer Who Plans to Complete a Stalled Apartment Conversion</h4>
+        <span class="press-read">Read coverage
+          <svg viewBox="0 0 16 9" width="14"><line x1="0" y1="4.5" x2="13" y2="4.5" stroke="currentColor"/><polyline points="9,1 13,4.5 9,8" fill="none" stroke="currentColor"/></svg>
+        </span>
+      </a>
+      <a href="https://hartfordbusiness.com/article/mixed-use-retail-building-in-newington-center-sells-for-1-4m/" target="_blank" rel="noopener noreferrer" class="press-article">
+        <span class="press-pub">Hartford Business Journal</span>
+        <h4 class="press-title">Mixed-Use Retail Building in Newington Center Sells for $1.4M</h4>
+        <span class="press-read">Read coverage
+          <svg viewBox="0 0 16 9" width="14"><line x1="0" y1="4.5" x2="13" y2="4.5" stroke="currentColor"/><polyline points="9,1 13,4.5 9,8" fill="none" stroke="currentColor"/></svg>
+        </span>
+      </a>
+      <a href="https://www.newhavenindependent.org/2025/09/30/landlord-lands-loan-for-failed-co-op-future-apartments/" target="_blank" rel="noopener noreferrer" class="press-article">
+        <span class="press-pub">New Haven Independent</span>
+        <h4 class="press-title">Landlord Lands Loan for Failed Co-Op, Future Apartments</h4>
+        <span class="press-read">Read coverage
+          <svg viewBox="0 0 16 9" width="14"><line x1="0" y1="4.5" x2="13" y2="4.5" stroke="currentColor"/><polyline points="9,1 13,4.5 9,8" fill="none" stroke="currentColor"/></svg>
+        </span>
+      </a>
+      <a href="https://hartfordbusiness.com/article/nurse-turned-real-estate-investor-developer-builds-a-growing-ct-apartment-portfolio/" target="_blank" rel="noopener noreferrer" class="press-article">
+        <span class="press-pub">Hartford Business Journal</span>
+        <h4 class="press-title">Nurse-Turned Real Estate Investor/Developer Builds a Growing CT Apartment Portfolio</h4>
+        <span class="press-read">Read coverage
+          <svg viewBox="0 0 16 9" width="14"><line x1="0" y1="4.5" x2="13" y2="4.5" stroke="currentColor"/><polyline points="9,1 13,4.5 9,8" fill="none" stroke="currentColor"/></svg>
+        </span>
+      </a>
+      <a href="https://hartfordbusiness.com/article/18-unit-waterbury-apartment-building-sells-for-18m/" target="_blank" rel="noopener noreferrer" class="press-article">
+        <span class="press-pub">Hartford Business Journal</span>
+        <h4 class="press-title">18-Unit Waterbury Apartment Building Sells</h4>
+        <span class="press-read">Read coverage
+          <svg viewBox="0 0 16 9" width="14"><line x1="0" y1="4.5" x2="13" y2="4.5" stroke="currentColor"/><polyline points="9,1 13,4.5 9,8" fill="none" stroke="currentColor"/></svg>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="cta-banner-inner">
+    <div data-reveal>
+      <span class="eyebrow" style="color:rgba(245,241,234,0.6);">Let's build something</span>
+      <h2 style="margin-top:24px;">Whether you're <em>investing,</em><br />selling, or repositioning —<br />we're built to execute.</h2>
+    </div>
+    <div data-reveal data-delay="120">
+      <a class="btn" href="contact.html">Start a conversation
+        <svg class="arrow" viewBox="0 0 16 9"><line x1="0" y1="4.5" x2="14" y2="4.5"/><polyline points="10,1 14,4.5 10,8"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div data-slot="footer"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="site.js"></script>
+<script src="layout.js"></script>
+<script type="text/babel" src="tweaks.jsx"></script>
+</body>
+</html>
